@@ -58,19 +58,19 @@ const Contact = () => {
     {
       icon: <Mail className="w-5 h-5" />,
       label: "Email",
-      value: "john.doe@email.com",
-      href: "mailto:john.doe@email.com"
+      value: "jetinmunene53@gmail.com",
+      href: "mailto:jetinmunene53@gmail.com"
     },
     {
       icon: <Phone className="w-5 h-5" />,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+254 790776805",
+      href: "tel:+254790776805"
     },
     {
       icon: <MapPin className="w-5 h-5" />,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Nairobi, Kenya",
       href: "https://maps.google.com"
     }
   ];
@@ -79,19 +79,19 @@ const Contact = () => {
     {
       icon: <Github className="w-5 h-5" />,
       label: "GitHub",
-      href: "https://github.com/johndoe",
+      href: "https://github.com/jetinmunene",
       color: "hover:text-gray-800"
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn", 
-      href: "https://linkedin.com/in/johndoe",
+      href: "https://linkedin.com/in/jetinmunene",
       color: "hover:text-blue-600"
     },
     {
       icon: <Twitter className="w-5 h-5" />,
       label: "Twitter",
-      href: "https://twitter.com/johndoe",
+      href: "https://twitter.com/jetinmunene",
       color: "hover:text-blue-400"
     }
   ];

@@ -14,23 +14,23 @@ const Resume = () => {
 
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "TechCorp Solutions",
-      period: "2022 - Present",
+      title: "Software Developer",
+      company: "UNITY SACCO",
+      period: "2023- Present",
       description: "Lead development of enterprise-level web applications using React, Node.js, and cloud technologies. Mentored junior developers and implemented CI/CD pipelines.",
       achievements: ["Reduced app load time by 40%", "Led team of 5 developers", "Implemented microservices architecture"]
     },
     {
-      title: "Full Stack Developer",
-      company: "Digital Innovations Inc",
-      period: "2020 - 2022",
+      title: "Web Developer",
+      company: "Datapedia Global Consultancy",
+      period: "2022 - 2023",
       description: "Developed and maintained multiple client projects using MERN stack. Collaborated with design teams to implement pixel-perfect UIs.",
       achievements: ["Built 15+ production applications", "Improved code quality by 60%", "Introduced automated testing"]
     },
     {
       title: "Frontend Developer",
-      company: "StartupXYZ",
-      period: "2019 - 2020", 
+      company: "PACJA Organization",
+      period: "2022 - 2023", 
       description: "Created responsive web applications and mobile-first designs. Worked closely with UX designers to enhance user experience.",
       achievements: ["Increased user engagement by 35%", "Optimized performance metrics", "Built reusable component library"]
     }
@@ -38,18 +38,18 @@ const Resume = () => {
 
   const education = [
     {
-      degree: "Bachelor of Science in Computer Science",
-      school: "University of Technology",
-      period: "2015 - 2019",
-      description: "Graduated Magna Cum Laude with focus on Software Engineering and Web Development"
+      degree: "Bachelor of Science in Computer Technology",
+      school: "Multimedia University",
+      period: "2021 - 2025",
+      description: "Graduated with Bachelor's Degree in Computer Technology  with focus on Software Engineering and Web Development"
     }
   ];
 
   const certifications = [
-    "AWS Certified Solutions Architect",
     "Google Cloud Professional Developer",
+    "PHP Certified Developer"
     "MongoDB Certified Developer",
-    "React Hooks and Context API Certified"
+    "Python Certified Developer"
   ];
 
   return (
@@ -177,19 +177,19 @@ const Resume = () => {
               <CardContent className="space-y-4">
                 <div className="flex justify-between items-center">
                   <span className="text-muted-foreground">Projects Completed</span>
-                  <span className="font-bold text-primary">50+</span>
+                  <span className="font-bold text-primary">20+</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-muted-foreground">Years Experience</span>
-                  <span className="font-bold text-primary">5+</span>
+                  <span className="font-bold text-primary">3+</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-muted-foreground">Happy Clients</span>
-                  <span className="font-bold text-primary">25+</span>
+                  <span className="font-bold text-primary">10+</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-muted-foreground">GitHub Repos</span>
-                  <span className="font-bold text-primary">100+</span>
+                  <span className="font-bold text-primary">20+</span>
                 </div>
               </CardContent>
             </Card>

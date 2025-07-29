@@ -13,8 +13,8 @@ const Hero = () => {
   const downloadResume = () => {
     // In a real implementation, this would download the actual resume PDF
     const link = document.createElement('a');
-    link.href = '/resume.pdf'; // You would add your resume PDF to the public folder
-    link.download = 'John_Doe_Resume.pdf';
+    link.href = '/Jetin_Resume.pdf'; // You would add your resume PDF to the public folder
+    link.download = 'Jetin_Resume.pdf';
     link.click();
   };
 
@@ -36,12 +36,12 @@ const Hero = () => {
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
             <span className="block">Hi, I'm</span>
             <span className="block bg-gradient-to-r from-white to-primary-glow bg-clip-text text-transparent">
-              John Doe
+              Jetin Munene
             </span>
           </h1>
           
           <h2 className="text-xl sm:text-2xl lg:text-3xl text-white/90 mb-6 font-medium">
-            Full Stack Software Developer | Web Application Specialist
+            Software Developer | Web Developer
           </h2>
           
           <p className="text-lg sm:text-xl text-white/80 mb-8 max-w-2xl mx-auto leading-relaxed">
@@ -97,7 +97,7 @@ const Hero = () => {
               className="text-white/80 hover:text-white hover:bg-white/10 rounded-full w-12 h-12 transition-all duration-300 hover:scale-110"
               asChild
             >
-              <a href="mailto:john.doe@email.com">
+              <a href="mailto:jetinmunene53@gmail.com">
                 <Mail className="w-5 h-5" />
               </a>
             </Button>

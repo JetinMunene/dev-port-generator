@@ -15,22 +15,22 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: <Github className="w-5 h-5" />,
-      href: "https://github.com/johndoe",
+      href: "https://github.com/jetinmunene",
       label: "GitHub"
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
-      href: "https://linkedin.com/in/johndoe",
+      href: "https://linkedin.com/in/jetinmunene",
       label: "LinkedIn"
     },
     {
       icon: <Twitter className="w-5 h-5" />,
-      href: "https://twitter.com/johndoe", 
+      href: "https://twitter.com/jetinmunene", 
       label: "Twitter"
     },
     {
       icon: <Mail className="w-5 h-5" />,
-      href: "mailto:john.doe@email.com",
+      href: "mailto:jetinmunene53@gmail.com",
       label: "Email"
     }
   ];
@@ -60,7 +60,7 @@ const Footer = () => {
               &lt;Dev/&gt;
             </button>
             <p className="text-muted-foreground leading-relaxed mb-6 max-w-md">
-              Passionate Full Stack Developer creating innovative web solutions 
+              Passionate Software Developer creating innovative web solutions 
               with modern technologies. Let's build something amazing together.
             </p>
             
@@ -108,9 +108,9 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-foreground mb-4">Get In Touch</h3>
             <div className="space-y-3 text-muted-foreground">
-              <p>john.doe@email.com</p>
-              <p>+1 (555) 123-4567</p>
-              <p>San Francisco, CA</p>
+              <p>jetinmunene53@gmail.com</p>
+              <p>+254 790776805</p>
+              <p>Nairobi, Kenya</p>
               <div className="flex items-center space-x-1 text-sm">
                 <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
                 <span>Available for projects</span>
@@ -123,7 +123,7 @@ const Footer = () => {
         <div className="py-6 border-t border-border">
           <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
             <div className="flex items-center space-x-1 text-sm text-muted-foreground">
-              <span>© {currentYear} John Doe. Made with</span>
+              <span>© {currentYear} Jetin Munene. Made with</span>
               <Heart className="w-4 h-4 text-red-500 fill-current" />
               <span>using React & TypeScript</span>
             </div>
@@ -134,7 +134,7 @@ const Footer = () => {
                 onClick={scrollToTop}
                 className="text-primary hover:underline font-medium"
               >
-                John Doe
+                Jetin Munene
               </button>
             </div>
           </div>

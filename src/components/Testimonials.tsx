@@ -4,26 +4,26 @@ import { Star, Quote } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "CTO at TechCorp",
-      company: "TechCorp Solutions",
-      content: "John's technical expertise and problem-solving abilities are exceptional. He consistently delivers high-quality code and has been instrumental in our team's success. His leadership skills make him a valuable asset.",
+      name: "Cynthia Wechabe",
+      role: "CEO UNITY SACCO",
+      company: "UNITY SACCO",
+      content: "Jetin's technical expertise and problem-solving abilities are exceptional. He consistently delivers high-quality code and has been instrumental in our team's success. His leadership skills make him a valuable asset.",
       rating: 5,
       avatar: "SJ"
     },
     {
-      name: "Michael Chen",
-      role: "Product Manager",
-      company: "Digital Innovations",
-      content: "Working with John has been a pleasure. His attention to detail and ability to translate complex requirements into elegant solutions is remarkable. He always goes above and beyond to ensure project success.",
+      name: "Festus Ndiritu",
+      role: "Software Developer",
+      company: "Datapedia Global Consultancy",
+      content: "Working with Jetin has been a pleasure. His attention to detail and ability to translate complex requirements into elegant solutions is remarkable. He always goes above and beyond to ensure project success.",
       rating: 5,
       avatar: "MC"
     },
     {
-      name: "Emma Rodriguez",
-      role: "Lead Designer",
-      company: "StartupXYZ",
-      content: "John bridges the gap between design and development perfectly. His understanding of user experience principles and technical implementation makes collaboration seamless and results outstanding.",
+      name: "Festus Koome",
+      role: "Lead Software Developer",
+      company: "PACJA Organization",
+      content: "Jetin bridges the gap between design and development perfectly. His understanding of user experience principles and technical implementation makes collaboration seamless and results outstanding.",
       rating: 5,
       avatar: "ER"
     }

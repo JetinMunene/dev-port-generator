@@ -16,7 +16,7 @@ const Skills = () => {
       title: "Frontend Development",
       skills: [
         "React", "TypeScript", "JavaScript", "Next.js", "Vue.js",
-        "HTML5", "CSS3", "Tailwind CSS", "SASS/SCSS", "Material-UI"
+        "HTML5", "CSS3", "Tailwind CSS"
       ]
     },
     {
@@ -24,14 +24,14 @@ const Skills = () => {
       title: "Backend Development", 
       skills: [
         "Node.js", "Express.js", "Python", "Django", "FastAPI",
-        "PHP", "Laravel", "REST APIs", "GraphQL", "Microservices"
+        "PHP", "Laravel", "REST APIs"
       ]
     },
     {
       icon: <Globe className="w-6 h-6" />,
       title: "Databases & Cloud",
       skills: [
-        "MongoDB", "PostgreSQL", "MySQL", "Redis", "Firebase",
+        "MongoDB", "PostgreSQL", "MySQL", "Firebase",
         "AWS", "Google Cloud", "Heroku", "Vercel", "Netlify"
       ]
     },
@@ -39,23 +39,23 @@ const Skills = () => {
       icon: <Settings className="w-6 h-6" />,
       title: "Tools & DevOps",
       skills: [
-        "Git", "Docker", "Jenkins", "CI/CD", "Linux",
-        "Webpack", "Vite", "Jest", "Cypress", "Postman"
+        "Git", "Docker", "Jenkins", "Linux",
+        "Webpack", "Vite", "Postman"
       ]
     },
     {
       icon: <Smartphone className="w-6 h-6" />,
       title: "Mobile Development",
       skills: [
-        "React Native", "Flutter", "PWA", "Responsive Design",
-        "Mobile-First Design", "Ionic", "Cordova"
+        "React Native", "Flutter", "Responsive Design",
+        "Mobile-First Design", "Cordova"
       ]
     },
     {
       icon: <Palette className="w-6 h-6" />,
       title: "Design & UX",
       skills: [
-        "Figma", "Adobe XD", "UI/UX Design", "Prototyping",
+        "Figma", "Adobe", "UI/UX Design", "Prototyping",
         "Wireframing", "User Research", "Accessibility", "Design Systems"
       ]
     }
@@ -124,10 +124,10 @@ const Skills = () => {
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { name: "JavaScript", level: 95 },
-              { name: "TypeScript", level: 90 },
+              { name: "JavaScript", level: 90},
+              { name: "TypeScript", level: 80 },
               { name: "Python", level: 85 },
-              { name: "PHP", level: 80 }
+              { name: "PHP", level: 90 }
             ].map((lang, index) => (
               <Card key={index} className="card-gradient border border-border/50">
                 <CardContent className="p-6 text-center">

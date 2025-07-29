@@ -14,7 +14,7 @@ const Projects = () => {
       description: "A comprehensive project management platform with real-time collaboration, advanced analytics, and team workflow optimization. Built with modern React patterns and state management.",
       image: project1Image,
       technologies: ["React", "TypeScript", "Node.js", "MongoDB", "Socket.io"],
-      githubUrl: "https://github.com/johndoe/taskflow",
+      githubUrl: "https://github.com/jetinmunene/taskflow",
       liveUrl: "https://taskflow-demo.com",
       date: "2024",
       featured: true
@@ -25,7 +25,7 @@ const Projects = () => {
       description: "Sustainable e-commerce solution with AI-powered product recommendations, carbon footprint tracking, and seamless payment integration for eco-conscious consumers.",
       image: project2Image,
       technologies: ["Next.js", "Stripe", "PostgreSQL", "Prisma", "TailwindCSS"],
-      githubUrl: "https://github.com/johndoe/ecocommerce",
+      githubUrl: "https://github.com/jetinmunene/ecocommerce",
       liveUrl: "https://ecocommerce-demo.com",
       date: "2024",
       featured: true
@@ -36,7 +36,7 @@ const Projects = () => {
       description: "Cross-platform mobile application for health monitoring with wearable device integration, data visualization, and personalized health insights powered by machine learning.",
       image: project3Image,
       technologies: ["React Native", "Firebase", "Python", "TensorFlow", "Redux"],
-      githubUrl: "https://github.com/johndoe/healthtracker",
+      githubUrl: "https://github.com/jetinmunene/healthtracker",
       liveUrl: "https://healthtracker-demo.com",
       date: "2023",
       featured: false
@@ -190,7 +190,7 @@ const Projects = () => {
             className="hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105"
             asChild
           >
-            <a href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/jetinmunene" target="_blank" rel="noopener noreferrer">
               <Github className="w-5 h-5 mr-2" />
               View All Projects on GitHub
             </a>

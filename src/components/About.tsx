@@ -5,7 +5,7 @@ const About = () => {
   const highlights = [
     {
       icon: <Code className="w-6 h-6" />,
-      title: "5+ Years Experience",
+      title: "3+ Years Experience",
       description: "Building scalable web applications"
     },
     {
@@ -40,7 +40,7 @@ const About = () => {
           <div className="animate-slide-in-left">
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground leading-relaxed mb-6">
-                I'm a passionate Full Stack Developer with over 5 years of experience creating 
+                I'm a passionate Software Developer with over 3 years of experience creating 
                 digital solutions that bridge the gap between design and functionality. My journey 
                 in software development started with a curiosity about how things work on the web, 
                 and it has evolved into a deep passion for crafting elegant, efficient code.
@@ -49,7 +49,7 @@ const About = () => {
               <p className="text-muted-foreground leading-relaxed mb-6">
                 I specialize in modern web technologies and have a particular love for the MERN stack. 
                 When I'm not coding, you can find me exploring new technologies, contributing to open-source 
-                projects, or mentoring junior developers. I believe in writing code that not only works 
+                projects. I believe in writing code that not only works 
                 but is also maintainable, scalable, and enjoyable to work with.
               </p>
 
