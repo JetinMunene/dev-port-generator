@@ -7,8 +7,8 @@ const Resume = () => {
   const downloadResume = () => {
     // In a real implementation, this would download the actual resume PDF
     const link = document.createElement('a');
-    link.href = '/resume.pdf';
-    link.download = 'John_Doe_Resume.pdf';
+    link.href = '/Jetin_Resume.pdf';
+    link.download = 'Jetin_Resume.pdf';
     link.click();
   };
 
@@ -47,9 +47,9 @@ const Resume = () => {
 
   const certifications = [
     "Google Cloud Professional Developer",
-    "PHP Certified Developer"
-    "MongoDB Certified Developer",
-    "Python Certified Developer"
+    "PHP Certified Developer",
+    "Python Certified Developer",
+    "HTML5 and CSS3 Certified Developer"
   ];
 
   return (
